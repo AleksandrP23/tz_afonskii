@@ -1,0 +1,141 @@
+.footer {
+    background-color: #F6F6F6;
+    margin-top: 20px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+
+    @media (min-width: 540px) {
+        margin-top: 48px;
+    }
+
+
+    &__link {
+        font-size: 10px;
+        color: #4c4c4c4c;
+        text-decoration: none;
+        border-top: 1px solid transparent;
+        padding-top: 10px;
+        transition: .3s linear;
+        
+        &:hover {
+            color: rgba(0,0,0,.7);
+        }
+    }
+}
+
+.footer-nav {
+    height: 120px;
+    margin-left: 0px;
+    position: relative;
+
+    @media (min-width: 992px) {
+        height: 80px;
+        margin-left: 100px;
+    }
+
+    &::before {
+        content: "";
+        display: block;
+        border-top: 1px solid #F4CE77;
+        width: 55px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}
+
+.footer-list__item {
+    list-style-type: none;
+}
+
+.footer-list__tel {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #4C4C4C;
+    position: relative;
+    transition: .3s linear;
+        
+    &:hover {
+        color: rgba(0,0,0,.7);
+    }
+
+
+    @media (min-width: 768px) {
+        font-size: 21px;
+        line-height: 39px;
+    }
+
+    @media (min-width: 992px) {
+        font-size: 24px;
+    }
+
+    &::before {
+        content: "";
+        background-image: url(../../img/footer-1.png);
+        background-repeat: no-repeat;
+        width: 16px;
+        height: 16px;
+        display: block;
+        position: absolute;
+        top: 7px;
+        left: -45px;
+    }
+}
+
+.footer-list__addr {
+    display: inline-block;
+    margin-top: 7px;
+    line-height: 16px;
+    position: relative;
+
+    &::before {
+        content: "";
+        background-image: url(../../img/footer-2.png);
+        background-repeat: no-repeat;
+        width: 11px;
+        height: 16px;
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: -32px;
+
+        @media (min-width: 992px) {
+        top: 0px;
+        left: -35px;
+        }
+
+    }
+}
+
+.footer-list__social {
+    position: relative; 
+    margin-top: 34px;
+    
+
+    &::before {
+        content: "";
+        display: block;
+        border-top: 1px solid #F4CE77;
+        width: 140px;
+        position: absolute;
+        right: 0;
+        top: -12px;
+    }
+}
+
+.footer-list__link{
+    margin-left: 15px;
+    transition: .3s linear;
+        
+    &:hover {
+        background-color: transparent;
+        box-shadow: 0px 0px 7px 5px rgba(244, 207, 119, 0.67);
+    }
+}
+
+
+.footer__copy {
+    text-align: center;
+}

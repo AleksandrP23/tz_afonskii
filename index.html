@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+
+	<!-- Titles -->
+	<title>Новый проект</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+	<!-- Адаптивная  верстка -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<!-- Syles -->
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Fonts -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Roboto:100,300,400&display=swap&subset=cyrillic"
+		rel="stylesheet">
+
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row justify-content-center">
+				<nav class="navbar navbar-expand-sm navbar-light mt-3">
+					<button class="navbar-toggler" type="button" data-toggle="collapse"
+						data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="navbar-nav">
+							<a class="nav-item nav-link header__link mr-1 header__link--active">Главная</a>
+							<a class="nav-item nav-link header__link mr-1">О фонде</a>
+							<a class="nav-item nav-link header__link mr-1">Нужна помощь</a>
+							<a class="nav-item nav-link header__link mr-1">Помогли</a>
+							<a class="nav-item nav-link header__link mr-1">Друзья</a>
+							<a class="nav-item nav-link header__link mr-1">Отчеты</a>
+							<a class="nav-item nav-link header__link mr-1">Новости</a>
+							<a class="nav-item nav-link header__link mr-1">Контакты</a>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div class="row justify-content-center justify-content-md-between mt-5 mx-auto">
+				<div class="logo">
+					<img src="./img/logo.png" alt="Благотворительный фонд">
+				</div>
+				<div class="nav justify-content-center">
+					<a href="#" class="header__link header__link--bottom mr-5 mb-3 text-uppercase">Нужна помощь</a>
+					<a href="#" class="header__link header__link--bottom text-uppercase">Стать волонтером</a>
+					<div class="p-0">
+						<a href="#" class="btn header-btn" tabindex="-1" role="button" aria-disabled="true">Сделать
+							доброе дело</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="about mt-60">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<blockquote class="blockquote-about">
+						<p class="about__quote"><span class="marks">«</span>Выйди к людям, возьми на себя их горе – и
+							тебе легче будет<span class="marks">»</span></p>
+						<cite class="about__author">преп. Силуан Афонский</cite>
+					</blockquote>
+					<p class="about__text mt-40">Наконец, спустя 3 года непрерывных усилий, нам удалось зарегистрировать
+						долгожданный благотворительный фонд. Давняя мечта иметь возможность делать что-то доброе во
+						Славу Божью придавала нам сил и не давала опускать руки после очередных неудач.</p>
+					<p class="about__text">Фонд носит имя удивительного святого и земляка – святого преподобного Силуана
+						Афонского.</p>
+					<p class="about__text">Преподобный, являясь по происхождению простым крестьянином, не имел даже
+						образования, но был настолько чист сердцем, имел огромную любовь к каждому и провел немало
+						времени в молитвах о всех людях.</p>
+					<p class="about__text about__text--line position-relative">Мы бы хотели в этом быть похожими на него
+						и постараться проявить любовь и заботу хотя бы о некоторых людях. Будем рады и много благодарны,
+						если вы разделите с нами это стремление.</p>
+				</div>
+				<div class="col-md-6">
+					<div class="about__img">
+						<img src="./img/about-1.png" alt="Афонский">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="helpers">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<div class="container">
+						<h3 class="helpers__title">Им нужна помощь</h3>
+						<div class="row">
+							<div class="col-sm-6 col-md-4">
+								<div class="helpers-item">
+									<h4 class="helpers-item__title">Ксения Лупу</h4>
+									<p class="helper-item__text">Глиобластома левого лобно-теменной доли головного
+										мозга.
+									</p>
+									<a href="" class="helper-item__more">Подробнее</a>
+									<img src="./img/helpers-1.png" alt="Фото">
+									<div class="helpers-item__fonds d-flex justify-content-between">
+										<div class="helpers-item__fonds-in">
+											<div class="helpers-item__fonds-in-text">собрано</div>
+											<div class="helpers-item__fonds-in-price">363570 ₽</div>
+										</div>
+										<div class="helpers-item__fonds-rema">
+											<div class="helpers-item__fonds-rema-text">осталось собрать</div>
+											<div class="helpers-item__fonds-rema-price">363570 ₽</div>
+										</div>
+									</div>
+									<div class="progress helpers-item__progress">
+										<div class="progress-bar bg-gold" role="progressbar" style="width: 40%"
+											aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+										<div class="progress-bar bg-red" role="progressbar" style="width: 60%"
+											aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<a href="#" class="btn helpers-btn">Помочь Саше</a>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-4">
+								<div class="helpers-item">
+									<h4 class="helpers-item__title">Ксения Лупу</h4>
+									<p class="helper-item__text">Глиобластома левого лобно-теменной доли головного
+										мозга.
+									</p>
+									<a href="" class="helper-item__more">Подробнее</a>
+									<img src="./img/helpers-2.png" alt="Фото">
+									<div class="helpers-item__fonds d-flex justify-content-between">
+										<div class="helpers-item__fonds-in">
+											<div class="helpers-item__fonds-in-text">собрано</div>
+											<div class="helpers-item__fonds-in-price">363570 ₽</div>
+										</div>
+										<div class="helpers-item__fonds-rema">
+											<div class="helpers-item__fonds-rema-text">осталось собрать</div>
+											<div class="helpers-item__fonds-rema-price">363570 ₽</div>
+										</div>
+									</div>
+									<div class="progress helpers-item__progress">
+										<div class="progress-bar bg-gold" role="progressbar" style="width: 40%"
+											aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+										<div class="progress-bar bg-red" role="progressbar" style="width: 60%"
+											aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<a href="#" class="btn helpers-btn">Помочь Саше</a>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-4">
+								<div class="helpers-item">
+									<h4 class="helpers-item__title">Ксения Лупу</h4>
+									<p class="helper-item__text">Глиобластома левого лобно-теменной доли головного
+										мозга.
+									</p>
+									<a href="" class="helper-item__more">Подробнее</a>
+									<img src="./img/helpers-3.png" alt="Фото">
+									<div class="helpers-item__fonds d-flex justify-content-between">
+										<div class="helpers-item__fonds-in">
+											<div class="helpers-item__fonds-in-text">собрано</div>
+											<div class="helpers-item__fonds-in-price">363570 ₽</div>
+										</div>
+										<div class="helpers-item__fonds-rema">
+											<div class="helpers-item__fonds-rema-text">осталось собрать</div>
+											<div class="helpers-item__fonds-rema-price">363570 ₽</div>
+										</div>
+									</div>
+									<div class="progress helpers-item__progress">
+										<div class="progress-bar bg-gold" role="progressbar" style="width: 40%"
+											aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+										<div class="progress-bar bg-red" role="progressbar" style="width: 60%"
+											aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<a href="#" class="btn helpers-btn">Помочь Саше</a>
+								</div>
+							</div>
+						</div>
+						<a href="#" class="helpers__btn text-uppercase text-right d-block mt-40">Все нуждающиеся</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="container pr-0 pl-10">
+						<h3 class="helpers__title">Помогли</h3>
+						<div class="row">
+							<div class="col-sm-6 col-md-12">
+								<div class="helpers-item helpers-item__right">
+									<h4 class="helpers-item__title">Ксения Лупу</h4>
+									<p class="helper-item__text">Глиобластома левого лобно-теменной доли головного
+										мозга.
+									</p>
+									<a href="" class="helper-item__more">Подробнее</a>
+									<img src="./img/helpers-4.png" alt="Фото">
+									<div class="helpers-item__fonds d-flex justify-content-between helpers-gold">
+										<div class="helpers-item__fonds-in pl-3">
+											<div class="helpers-item__fonds-in-text">собрано</div>
+											<div class="helpers-item__fonds-rema-price">363570 ₽</div>
+										</div>
+										<div class="helpers-item__fonds-rema pr-3">
+											<img src="./img/health.png" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a href="#" class="helpers__btn text-uppercase text-right d-block mt-100">все те, кому мы
+							помогли</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="news">
+		<div class="container">
+			<h3 class="news__title">Новости фонда</h3>
+			<div class="row">
+				<div class="col-sm-6 col-lg-3">
+					<div class="news-item">
+						<div class="news-item__desc d-flex ">
+							<h4 class="news-item__title">Регистрация фонда</h4>
+							<div class="news-item__date d-flex flex-column justify-content-center text-center">
+								<span class="news-item__date-num">27</span>января
+							</div>
+						</div>
+						<p class="news-item__text">Дорогие друзья, наконец-то, спустя почти полтора года непрерывных
+							усилий, с третьей попытки нам удалось с Божьей помощью зарегистрировать долгожданный
+							благотворительный фонд!</p>
+						<a href="#" class="new-item__more">Подробнее</a>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3">
+					<div class="news-item">
+						<div class="news-item__desc d-flex ">
+							<h4 class="news-item__title">Алена Ильина просит Вашей помощи.</h4>
+							<div class="news-item__date d-flex flex-column justify-content-center text-center">
+								<span class="news-item__date-num">27</span>января
+							</div>
+						</div>
+						<p class="news-item__text">Дорогие друзья, наконец-то, спустя почти полтора года непрерывных
+							усилий, с третьей попытки нам удалось с Божьей помощью зарегистрировать долгожданный
+							благотворительный фонд!</p>
+						<a href="#" class="new-item__more">Подробнее</a>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3">
+					<div class="news-item">
+						<div class="news-item__desc d-flex ">
+							<h4 class="news-item__title">Милостью Божьей мы помогли Марии Ивановой.</h4>
+							<div class="news-item__date d-flex flex-column justify-content-center text-center">
+								<span class="news-item__date-num">27</span>января
+							</div>
+						</div>
+						<p class="news-item__text">Дорогие друзья, наконец-то, спустя почти полтора года непрерывных
+							усилий, с третьей попытки нам удалось с Божьей помощью зарегистрировать долгожданный
+							благотворительный фонд!</p>
+						<a href="#" class="new-item__more">Подробнее</a>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3">
+					<div class="news-item">
+						<div class="news-item__desc d-flex ">
+							<h4 class="news-item__title">Регистрация фонда</h4>
+							<div class="news-item__date d-flex flex-column justify-content-center text-center">
+								<span class="news-item__date-num">27</span>января
+							</div>
+						</div>
+						<p class="news-item__text">Дорогие друзья, наконец-то, спустя почти полтора года непрерывных
+							усилий, с третьей попытки нам удалось с Божьей помощью зарегистрировать долгожданный
+							благотворительный фонд!</p>
+						<a href="#" class="new-item__more">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 d-flex flex-column justify-content-between">
+					<div class="logo">
+						<img src="./img/logo.png" alt="Благотворительный фонд">
+					</div>
+					<p class="footer__copy">политика конфеденциальности <br> согласие на обработку персональных данных
+					</p>
+				</div>
+				<div class="col-sm-4">
+					<div class="footer-nav d-flex flex-column flex-wrap">
+						<a href="#" class="footer__link mr-40">Главная</a>
+						<a href="#" class="footer__link mr-40">О фонде</a>
+						<a href="#" class="footer__link mr-40">Нужна помощь</a>
+						<a href="#" class="footer__link mr-40">Помогли</a>
+						<a href="#" class="footer__link mr-40">Друзья</a>
+						<a href="#" class="footer__link mr-40">Отчеты</a>
+						<a href="#" class="footer__link">Новости</a>
+						<a href="#" class="footer__link">Контакты</a>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<ul class="footer-list text-right">
+						<li class="footer-list__item">
+							<a href="tel:+76501065731" class="footer-list__tel">+7 650 106 57 31</a>
+
+						</li>
+						<li class="footer-list__item">
+							<p class="footer-list__addr">г. Воронеж, Московский пр-т, 67 оф. 307</p>
+						</li>
+						<li class="footer-list__item">
+							<div class="footer-list__social text-right">
+								<a href="#" class="footer-list__link"><img src="./img/footer-3.png" alt=""></a>
+								<a href="#" class="footer-list__link"><img src="./img/footer-4.png" alt=""></a>
+								<a href="#" class="footer-list__link"><img src="./img/footer-5.png" alt=""></a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="libs/jquery/jquery-3.3.1.min.js"></script>
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>

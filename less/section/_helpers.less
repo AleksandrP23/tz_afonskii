@@ -1,0 +1,214 @@
+.helpers {
+    margin-top: 50px;
+
+    @media (min-width: 992px) {
+        margin-top: 100px;
+    }
+
+    &__title {
+        font-size: 25px;
+        font-weight: 200;
+        text-transform: uppercase;
+        line-height: 1;
+
+        @media (min-width: 768px) {
+            font-size: 30px;
+            line-height: 50px;
+        }
+
+        @media (min-width: 992px) {
+            font-size: 30px;
+            line-height: 130px;
+        }
+    }
+}
+
+.helpers-item,
+.helpers-item__right {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.helpers-item__right {
+    position: relative;
+
+    &::before {
+        content: "";
+        width: 300px;
+        height: 460px;
+        position: absolute;
+        right: -5px;
+        top: -50px;
+        border: 1px solid #979797;
+        border-radius: 2px;
+
+        @media (min-width: 576px) {
+            width: 260px;
+        }
+
+        @media (min-width: 768px) {
+            width: 155px;
+        }
+
+        @media (min-width: 992px) {
+            width: 255px;
+        }
+
+        @media (min-width: 1024px) {
+            width: 232px;
+        }
+    }
+
+}
+
+.helpers-item__title {
+    font-family: Cormorant Garamond;
+    font-size: 25px;
+    color: #2B2B2B;
+    position: relative;
+
+    &::before {
+        content: "";
+        display: block;
+        border-top: 1px solid #F4CE77;
+        width: 55px;
+        position: absolute;
+        left: 0;
+        top: -10px;
+    }
+}
+
+.helper-item__text {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 19px;
+}
+
+.helper-item__more {
+    display: block;
+    text-align: right;
+    color: #4C4C4C;
+    position: relative;
+    margin-bottom: 20px;
+    transition: .3s linear;
+
+    &::before {
+        content: "";
+        display: block;
+        border-top: 1px solid #F4CE77;
+        width: 55px;
+        position: absolute;
+        right: 0;
+        bottom: -3px;
+    }
+
+    &:hover {
+        color: rgba(0, 0, 0, .5);
+        text-decoration: none;
+    }
+}
+
+.helpers-item__fonds {
+    margin-top: 18px;
+}
+
+.helpers-item__fonds-in-price {
+    font-size: 15px;
+    line-height: 23px;
+    color: #F4CE77;
+}
+
+.helpers-item__fonds-rema-price {
+    font-size: 15px;
+    line-height: 23px;
+    color: #E20613;
+    text-align: right;
+    display: block;
+}
+
+.helpers-item__fonds-rema img {
+    width: 32px;
+    height: 29px;
+    margin-top: 4px;
+}
+
+.helpers-item__progress {
+    border: 0.75px solid #CACACA;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 1px;
+}
+
+.helpers-btn {
+    color: #CA030F;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    text-align: center;
+    border: 1px solid rgba(202, 3, 15, 0.5);
+    width: 100%;
+    margin-top: 24px;
+    transition: .3s linear;
+
+    &:hover a{
+        color: rgba(0, 0, 0, .5);
+        text-decoration: none;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: -2px;
+        right: -20px;
+        display: block;
+        background-image: url(../img/health.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 32px;
+        height: 29px;
+    }
+}
+
+.helpers-gold {
+    background: #F4CE77;
+    border-radius: 2px;
+}
+
+.helpers__btn {
+    font-size: 10px;
+    line-height: 16px;
+    color: #4c4c4c4c;
+    text-decoration: none;
+    padding-top: 10px;
+    text-decoration: none;
+    position: relative;
+    transition: .3s linear;
+
+    &::before {
+        content: "";
+        display: block;
+        border-top: 1px solid #EFEFEF;
+        width: 200px;
+        position: absolute;
+        right: 0;
+        top: 0px;
+        
+    }
+
+    &:hover {
+        color: rgba(0, 0, 0, .5);
+        text-decoration: none;
+    }
+
+    &::after {
+        content: "";
+        display: block;
+        border-top: 1px solid #F4CE77;
+        width: 55px;
+        position: absolute;
+        right: 0;
+        bottom: -3px;
+    }
+}

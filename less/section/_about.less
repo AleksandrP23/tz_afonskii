@@ -1,0 +1,64 @@
+.about__quote {
+    font-family: 'Cormorant Garamond';
+    font-size: 28px;
+    color: #2b2b2b;
+    line-height: 30px;
+
+    @media (min-width: 540px) {
+        font-size: 43px;
+        line-height: 52px;
+    }
+}
+
+.marks {
+    color: #F4CE77;
+}
+
+.about__author {
+    display: block;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: right;
+    font-style: normal;
+    position: relative;
+    margin-top: 45px;
+
+    &::before {
+        content: "";
+        display: block;
+        border-top: 1px solid #F4CE77;
+        width: 55px;
+        position: absolute;
+        right: 0;
+        top: -10px;
+    }
+}
+
+.about__text {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 19px;
+    margin-bottom: 16px;
+}
+
+.about__text--line::before {
+    content: "";
+    display: block;
+    border-top: 1px solid #F4CE77;
+    width: 55px;
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+}
+
+
+.about__img {
+    text-align: center;
+    background-image: url(../../img/about-2.png), url(../../img/about-3.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 65%, right 90%;
+
+    @media (min-width: 540px) {
+        height: 100%;
+    }
+}
