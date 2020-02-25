@@ -260,33 +260,13 @@ body {
 }
 .helpers-item__right::before {
   content: "";
-  width: 300px;
+  width: 105%;
   height: 460px;
   position: absolute;
   right: -5px;
   top: -50px;
   border: 1px solid #979797;
   border-radius: 2px;
-}
-@media (min-width: 576px) {
-  .helpers-item__right::before {
-    width: 260px;
-  }
-}
-@media (min-width: 768px) {
-  .helpers-item__right::before {
-    width: 155px;
-  }
-}
-@media (min-width: 992px) {
-  .helpers-item__right::before {
-    width: 255px;
-  }
-}
-@media (min-width: 1024px) {
-  .helpers-item__right::before {
-    width: 232px;
-  }
 }
 .helpers-item__title {
   font-family: Cormorant Garamond;
