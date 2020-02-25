@@ -215,7 +215,7 @@ body {
 }
 .about__img {
   text-align: center;
-  background-image: url(../../img/about-2.png), url(../../img/about-3.png);
+  background-image: url(../img/about-2.png), url(../img/about-3.png);
   background-repeat: no-repeat, no-repeat;
   background-position: left 65%, right 90%;
 }
@@ -549,7 +549,7 @@ body {
 }
 .footer-list__tel::before {
   content: "";
-  background-image: url(../../img/footer-1.png);
+  background-image: url(../img/footer-1.png);
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
@@ -566,7 +566,7 @@ body {
 }
 .footer-list__addr::before {
   content: "";
-  background-image: url(../../img/footer-2.png);
+  background-image: url(../img/footer-2.png);
   background-repeat: no-repeat;
   width: 11px;
   height: 16px;
