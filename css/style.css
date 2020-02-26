@@ -73,6 +73,9 @@ body {
   font-family: 'Roboto';
   font-size: 10.125px;
 }
+.mt-10 {
+  margin-top: 10px;
+}
 .mt-25 {
   margin-top: 25px;
 }
@@ -97,8 +100,10 @@ body {
 .pl-0imp {
   padding-left: 0 !important;
 }
-.pr-0imp {
-  padding-right: 0 !important;
+@media (min-width: 768px) {
+  .pr-0imp {
+    padding-right: 0 !important;
+  }
 }
 .px-imp {
   padding-left: 10px;
@@ -116,8 +121,10 @@ body {
 .pt-25 {
   padding-top: 25px;
 }
-.pl-10 {
-  padding-left: 10px;
+@media (min-width: 768px) {
+  .pl-10 {
+    padding-left: 10px;
+  }
 }
 .bg-gold {
   background-color: #F4CE77;
@@ -135,6 +142,7 @@ body {
 }
 .logo {
   margin-left: -5px;
+  margin-bottom: 5px;
 }
 .header__link {
   font-size: 10px;
@@ -196,7 +204,13 @@ body {
   border-top: 1px solid #EFEFEF;
   padding-top: 10px;
   text-decoration: none;
-  margin-right: 51px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+@media (min-width: 992px) {
+  .header__link--bottom {
+    margin-right: 51px;
+  }
 }
 .about__quote {
   font-family: 'Cormorant Garamond';
@@ -214,7 +228,12 @@ body {
   color: #F4CE77;
 }
 .marks--top {
-  margin-left: -25px;
+  margin-left: 0px;
+}
+@media (min-width: 540px) {
+  .marks--top {
+    margin-left: -25px;
+  }
 }
 .about__author {
   display: block;
@@ -274,6 +293,12 @@ body {
   font-weight: 200;
   text-transform: uppercase;
   line-height: 1;
+  padding-left: 15px;
+}
+@media (min-width: 576px) {
+  .helpers__title {
+    padding-left: 0;
+  }
 }
 @media (min-width: 768px) {
   .helpers__title {
@@ -293,17 +318,43 @@ body {
   margin-top: 27px;
 }
 .helpers-item__right {
-  position: relative;
+  padding-left: 15px;
+}
+@media (min-width: 576px) {
+  .helpers-item__right {
+    padding-left: 0;
+  }
 }
 .helpers-item__right::before {
   content: "";
-  width: 105%;
+  width: 95%;
   height: 460px;
   position: absolute;
   right: -2px;
   top: -50px;
   border: 1px solid #979797;
   border-radius: 2px;
+}
+@media (min-width: 576px) {
+  .helpers-item__right::before {
+    width: 105%;
+    height: 410px;
+    top: -30px;
+  }
+}
+@media (min-width: 768px) {
+  .helpers-item__right::before {
+    height: 400px;
+    top: -27px;
+  }
+}
+@media (min-width: 992px) {
+  .helpers-item__right::before {
+    height: 441px;
+    top: -7px;
+    width: 95%;
+    right: 5px;
+  }
 }
 .helpers-item__title {
   font-family: Cormorant Garamond;

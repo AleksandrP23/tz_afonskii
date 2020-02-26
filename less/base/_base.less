@@ -15,6 +15,10 @@ body {
     font-size: 10.125px;
 }
 
+.mt-10 {
+    margin-top: 10px;
+}
+
 .mt-25 {
     margin-top: 25px;
 }
@@ -48,7 +52,10 @@ body {
 }
 
 .pr-0imp {
-    padding-right: 0 !important;
+
+    @media (min-width: 768px) {
+        padding-right: 0 !important;
+    }
 }
 
 .px-imp {
@@ -73,7 +80,10 @@ body {
 }
 
 .pl-10 {
-    padding-left: 10px;
+
+    @media (min-width: 768px) {
+        padding-left: 10px;
+    }
 }
 
 .bg-gold {
